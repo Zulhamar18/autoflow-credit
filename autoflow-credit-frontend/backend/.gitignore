@@ -1,0 +1,18 @@
+# Dependency folders
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environments
+.env
+backend/.env
+frontend/.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,14 @@
+{
+  "name": "autoflow-credit",
+  "version": "1.0.0",
+  "description": "Auto top-up ETH wallet using LI.FI + MetaMask",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run start --prefix backend\""
+  },
+  "author": "Zulham Ardiansyah",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
